@@ -1,25 +1,29 @@
-//Hour of day
-//Take date out of object
-//Data value for each block that has # corresponding with hour
-//For loop through data blocks to check this
-//Classes past present future, set attribute to color
+var content = $(".plannerContent");
+console.log(content);
 
   var now = moment().hour();
   console.log(now);
 
+  var day = moment().month();
+  console.log(day);
+
   function colorChange () {
 
     for (var i = 0; i < content.length; i++) {
-    timeBlock = content[i].dataset.time;
+     var divNum = parseInt(content[i].dataset.time);
+     console.log(divNum)
+     
+     if (divNum > now) {
+     content[i].setAttribute("id", "future");
+     }
 
-    if (timeBlock > now) {
-      timeBlock.attr("class", "future")
-    }else if (timeBlock < now) {
-      timeBlock.attr("class", "past")
-    }else if (timeBlock == now) {
-      timeBlock.attr("class", "present")
-    }
-    
+     if (divNum == now) {
+      content[i].setAttribute("id", "present");
+     }
+
+     if (divNum < now) {
+      content[i].setAttribute("id", "past");
+     }
     }
   }
   colorChange();

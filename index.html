@@ -134,52 +134,10 @@
  
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 
 
-<script>
-//Hour of day
-//Take date out of object
-//Data value for each block that has # corresponding with hour
-//For loop through data blocks to check this
-//Classes past present future, set attribute to color
-
-var content = $(".plannerContent");
-console.log(content);
-
-  var now = moment().hour();
-  console.log(now);
-
-  var day = moment().locale();
-  console.log(day);
-
-  function colorChange () {
-
-    content.forEach
-
-    for (var i = 0; i < content.length; i++) {
-     console.log(content[i].dataset.time);
-     
-     if (content[i].dataset.time > now) {
-     content.attr("id", "future");
-     }
-
-     if (content[i].dataset.time == now) {
-     content.attr("id", "present");
-     }
-
-     if (content[i].dataset.time < now) {
-     content.attr("id", "past");
-     }
-    }
-  }
-  colorChange();
-
-
-
-
-</script>
+<script src="Develop/function.js"></script>
 
 </html>
