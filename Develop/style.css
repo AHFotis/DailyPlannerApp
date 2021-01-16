@@ -72,4 +72,10 @@ textarea{
 
 /* New CSS ARRANGE LATEWR*/
 
+#fullPlanner {
+  margin-top: 100px;
+}
 
+.time { 
+  font-size: 14px;
+}
