@@ -72,14 +72,4 @@ textarea{
 
 /* New CSS ARRANGE LATEWR*/
 
-#plannerDiv {
-  border: 1px solid black;
-}
 
-.time {
-  border-right: 1px solid black;
-}
-
-.addBtn {
-  border-left: 1px solid black;
-}
