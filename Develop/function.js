@@ -34,4 +34,12 @@
   }
   colorChange();
 
-  
+$(".saveBtn").on("click", function () {
+    var relatedInput = $(this).parent().children(".plannerContent").val();
+    var saveName = $(this).data("time");
+    console.log(relatedInput)
+
+    localStorage.setItem(saveName, relatedInput);
+
+})
+
