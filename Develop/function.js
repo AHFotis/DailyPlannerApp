@@ -4,9 +4,13 @@ console.log(content);
   var now = moment().hour();
   console.log(now);
 
-  var day = moment().month();
-  console.log(day);
+  var date = moment().format("dddd, MMMM Do YYYY");
+  console.log(date);
 
+  $("#currentDay").text(date);
+
+
+//Function to change color blocks as day progresses
   function colorChange () {
 
     for (var i = 0; i < content.length; i++) {
