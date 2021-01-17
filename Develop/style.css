@@ -4,11 +4,10 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -21,25 +20,19 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
 
-.hour {
+.time {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  justify-content: center;
+  font-size: 14px;
+  padding-top: 15px;
 }
 
 #past {
@@ -70,24 +63,9 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-/* New CSS ARRANGE LATEWR*/
 
-#fullPlanner {
-  margin-top: 100px;
-}
 
-#plannerDiv {
-  margin: 8px;
-}
 
-.time { 
-  font-size: 14px;
-}
-
-button {
-  width: 190px;
-  height: 86px;
-}
 
 
 
