@@ -58,7 +58,15 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.clearBtn {
+  background-color: #06AED5;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.saveBtn i:hover,
+.clearBtn {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
