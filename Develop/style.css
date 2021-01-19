@@ -71,7 +71,19 @@ textarea {
   transition: all .3s ease-in-out;
 }
 
+/* Media Queries */
 
+@media screen and (max-width: 575px) {
+
+  .plannerContent {
+    width: 75%;
+  }
+
+  .saveBtn {
+   width: 25%;
+  }
+
+}
 
 
 

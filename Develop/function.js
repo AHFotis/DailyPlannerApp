@@ -74,9 +74,10 @@ colorChange();
 
 //Saves to do item to local storage with save button is clicked
 $(".saveBtn").on("click", function () {
+
   var relatedInput = $(this).parent().children(".plannerContent").val();
   var saveName = $(this).data("time");
-  console.log(relatedInput)
+  console.log(saveName)
 
   localStorage.setItem(saveName, relatedInput);
 })
