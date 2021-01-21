@@ -10,11 +10,11 @@ You can vist the live application [here](https://ahfotis.github.io/DayTracker/)
 ## Application Overview
 This application utilizes Moment.js to cycle through workday hours and track daily to dos. Features include:
 
-    * Full date dislpayed in header.
-    * "Clear Day" button also displayed in header to easily clear planner and local storage for next workday.
-    * Hourly time is color coded: gray for past, red for present, and green for future. Accomplished by utilizing data-attributes and Moment.js.
-    * Text field allows user to input whatever tasks need keeping track of. Inputs are saved on click of the corresponding save button at the end of the row.
-    * Inputs are also sent to local storage so that to dos are still available upon page refresh. Only re-saving and input field or utilizing the "Clear Day" button will delete the content from local storage.
+* Full date dislpayed in header.
+* "Clear Day" button also displayed in header to easily clear planner and local storage for next workday.
+* Hourly time is color coded: gray for past, red for present, and green for future. Accomplished by utilizing data-attributes and Moment.js.
+* Text field allows user to input whatever tasks need keeping track of. Inputs are saved on click of the corresponding save button at the end of the row.
+* Inputs are also sent to local storage so that to dos are still available upon page refresh. Only re-saving and input field or utilizing the "Clear Day" button will delete the content from local storage.
 
 
 ## Project Criteria
