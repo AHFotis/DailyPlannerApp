@@ -7,7 +7,7 @@ var content = $(".plannerContent");
 var now = moment().hour();
 
 //Returns the date with day, month, date, year
-var date = moment().format("dddd, MMMM Do YYYY");
+var date = moment().format("dddd, MMMM Do YYYY h:mm A");
 
 //Prints date to HTML
 $("#currentDay").text(date);
